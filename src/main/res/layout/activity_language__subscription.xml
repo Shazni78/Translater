@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Language_Subscription">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <LinearLayout
+            android:id="@+id/layout_for_check_boxes"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="550dp">-->
+
+    <Button
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:backgroundTint="#548BC34A"
+        android:onClick="onButtonClick"
+        android:text="Update" />
+    <!--    </LinearLayout>-->
+
+
+
+</RelativeLayout>

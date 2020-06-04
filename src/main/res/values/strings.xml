@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My</string>
+    <string name="language_translator_apikey">cG0Hk1nOqevzB7_8Tc5y7dwHOUKGYIdm6UE-AH0lTgh2</string>
+    <string name="language_translator_url">https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/887118fd-33e4-4de6-81f3-85688424352a</string>
+
+    <string name="text_speech_apikey">_eYW-8GDhvHXPGnZlRCtGZX9m-9cu3IjhK6TbahDw9aQ</string>
+    <string name="text_speech_url">https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/9ca3775b-b527-4f10-bab5-e109da2fbd54</string>
+</resources>
